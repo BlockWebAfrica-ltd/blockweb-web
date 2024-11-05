@@ -82,9 +82,9 @@
 .services-section {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    height: 100vh; /* Take full height */
-    padding: 16px; /* Adjust padding as needed */
+    justify-content: space-between;
+    height: 100vh;
+    padding: 16px 0;
 }
 
 .title-section {
@@ -293,4 +293,19 @@
         z-index: 10;
         margin: 7vw;
     }
+
+    .services-section {
+        padding: 16px 0;
+    }
 }
+
+@media (max-width: 800px) {
+    .services-section {
+        height: auto;
+    }
+}
+
+/* 
+@media (max-width: 1024px) {
+
+} */

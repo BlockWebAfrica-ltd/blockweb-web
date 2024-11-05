@@ -24,7 +24,7 @@ const Team = () => {
         <div className='title-section'>
             <h1 className='services-title font-bold' style={{ marginTop: '5px', marginBottom: '10px' }}>Meet the Team</h1>
         </div>
-        {/* Team Courasel */}
+        {/* Team Carousel */}
         <div>
           <Carousel />
         </div>

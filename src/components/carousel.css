@@ -1,41 +1,129 @@
-.slider-container {
-  width: 100%;
-  height: 40vh; /* Optional: adjust based on design */
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  background-size: cover;
-  background-position: center;
+.carousel {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: flex-end; /* Align content to the bottom */
-  color: #fff; /* Text color */
+  position: relative;
+  width: 100%; 
 }
 
-.slide-content {
-  /* background: rgba(0, 0, 0, 0.5); */
-  padding: 20px;
+.team-members-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  overflow: hidden; 
+  width: calc(100% - 100px); 
+  position: relative;
+}
+
+.member {
   text-align: center;
+  margin: 0 10px; 
 }
 
-.slide-content h2 {
-  font-size: 2rem;
-  margin: 0;
+.image-container img {
+  /* border-radius: 8px;  */
+  height: auto;
 }
 
-.slide-content p {
-  margin: 10px 0;
+.large {
+  width: 20vw; 
+  height: auto;
 }
 
-.slide-content a {
-  background: #fff;
-  color: #000;
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
+.medium {
+  width: 15vw; 
+  height: auto; 
+}
+
+.small {
+  width: 10vw; 
+  height: auto; 
+}
+
+.carousel-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1; 
+  position: absolute; 
+}
+
+.carousel-button.left {
+  left: 10px; 
+}
+
+.carousel-button.right {
+  right: 10px; 
+}
+
+.middle-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Large screens: Show 5 images */
+@media (min-width: 769px) {
+  .image-container {
+    justify-content: center;
+  }
+
+  .large {
+      width: 20vw; 
+  }
+
+  .medium {
+      width: 15vw; 
+  }
+
+  .small {
+      width: 10vw; 
+  }
+}
+
+/* Small screens: Show 3 images */
+@media (max-width: 768px) {
+  .image-container {
+    justify-content: center; 
+    width: 100%;
+  }
+
+  .carousel-button.left {
+    left: 0px; 
+  }
+  
+  .carousel-button.right {
+    right: 0px; 
+  }
+
+  .large {
+    width: 30vw; 
+  }
+
+  .medium {
+    width: 22vw; 
+  }
+
+  .small {
+    display: none; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-button.left {
+    left: 8vw; 
+  }
+  
+  .carousel-button.right {
+    right: 8vw; 
+  }
 }
