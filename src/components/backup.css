@@ -1,0 +1,58 @@
+/* General Carousel Styles */
+.client-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Hide the overflow to keep it inside the container */
+  }
+  
+  /* Container for the images */
+  .client-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide anything that overflows */
+    position: relative;
+  }
+  
+  /* Track for the images (this will be animated) */
+  .carousel-track {
+    display: flex;
+    width: 200%; /* Track width is twice the container's width for seamless looping */
+    animation: scroll 20s linear infinite; /* Smooth continuous scroll */
+  }
+  
+  /* Each individual image wrapper */
+  .client-image-wrapper {
+    text-align: center;
+    margin: 0 10px; /* Space between images */
+  }
+  
+  /* Image styles: all images will have the same size */
+  .client-image-wrapper .client-image {
+    width: 15vw; /* Set a uniform width */
+    height: 15vw; /* Set a uniform height based on the width (square aspect ratio) */
+    object-fit: contain; /* Ensures logos maintain aspect ratio without being stretched */
+  }
+  
+  /* Optional adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .client-image-wrapper .client-image {
+      width: 22vw; /* Adjust image size on small screens */
+      height: 22vw;
+    }
+  }
+  
+  /* Animation for continuous scroll */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* Start at the beginning */
+    }
+    100% {
+      transform: translateX(-50%); /* Move the entire track by 50% of its width */
+    }
+  }
+  

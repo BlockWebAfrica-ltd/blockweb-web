@@ -53,7 +53,8 @@
   cursor: pointer;
   padding: 10px;
   z-index: 1; 
-  position: absolute; 
+  position: absolute;
+  color: var(--gray);
 }
 
 .carousel-button.left {
@@ -127,3 +128,115 @@
     right: 8vw; 
   }
 }
+
+
+
+/* Client carousel */
+/* General Carousel Styles */
+.client-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%; /* Full width of the container */
+}
+
+/* Container for the images */
+.client-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: calc(100% - 100px); /* Adjust to account for buttons on left and right */
+  position: relative;
+}
+
+/* Each individual image wrapper */
+.client-image-wrapper {
+  text-align: center;
+  margin: 0 10px; /* Space between images */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for carousel animation */
+}
+
+/* Image styles: all images will have the same size */
+.client-image-wrapper .client-image {
+  width: 15vw; /* Set a uniform width */
+  height: 15vw; /* Set a uniform height based on the width (square aspect ratio) */
+  object-fit: contain; /* Ensures logos maintain aspect ratio without being stretched */
+}
+
+/* Carousel Buttons (Left & Right) */
+.client-carousel-button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  color: var(--gray);
+}
+
+.client-carousel-button.left {
+  left: 5vw; /* Left button position */
+}
+
+.client-carousel-button.right {
+  right: 5vw; /* Right button position */
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 769px) {
+  .client-image-container {
+    justify-content: center; /* Align images centrally */
+  }
+
+  .client-image-wrapper .client-image {
+    width: 10vw; /* Uniform width for large screens */
+    height: 10vw; /* Uniform height for large screens */
+  }
+
+  /* Adjust carousel button positions for larger screens */
+  .client-carousel-button.left {
+    left: 8vw; /* Adjust for better spacing */
+  }
+
+  .client-carousel-button.right {
+    right: 8vw; /* Adjust for better spacing */
+  }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .client-image-container {
+    justify-content: center;
+    width: 100%; /* Take full width on small screens */
+  }
+
+  /* Adjust carousel buttons for smaller screens */
+  .carousel-button.left {
+    left: 0px; /* Align buttons at the edge */
+  }
+
+  .carousel-button.right {
+    right: 0px; /* Align buttons at the edge */
+  }
+
+  .client-image-wrapper .client-image {
+    width: 22vw; /* Uniform width for small screens */
+    height: 22vw; /* Uniform height for small screens */
+  }
+}
+
+/* Optional Adjustments for Extra Large Screens (e.g., 1024px and up) */
+@media (min-width: 1024px) {
+  .client-carousel-button.left {
+    left: 20vw; /* Keep buttons at a distance from edges */
+  }
+
+  .client-carousel-button.right {
+    right: 20vw; /* Keep buttons at a distance from edges */
+  }
+}
+
+

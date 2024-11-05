@@ -125,10 +125,9 @@ const Carousel = () => {
 
   const getMiddleTitle = () => {
     const middleIndex = Math.floor(numberOfImagesToShow / 2); // Middle index: 2 for 5 images, 1 for 3 images
-    const middleMember =
-      teamMembers[(currentIndex + middleIndex) % teamMembers.length];
-    return middleMember.title || "No Title Available";
-  };
+    const middleMember = teamMembers[(currentIndex + middleIndex) % teamMembers.length];
+    return middleMember.title || 'No Title Available';
+};
 
   // Move left: Go one step back, wrapping around to the last images
   const moveLeft = () => {
