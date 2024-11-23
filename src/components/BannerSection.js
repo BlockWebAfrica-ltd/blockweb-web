@@ -6,7 +6,7 @@ import arrow from "../assets/images/arrow-long-right.svg";
 const BannerSection = () => {
   return (
     <>
-      <div className="banner-section">
+      <div className="banner-section" id="home">
         {/* You can add other components here */}
         <Navbar />
         <div className="home-content">
@@ -18,7 +18,7 @@ const BannerSection = () => {
           </p>
           <div className="explore-button">
             <button
-              className="font-semi-bold"
+              className="font-semi-bold explore-text"
               style={{ 
                 borderStyle: 'none',
                 background: 'none',
@@ -27,7 +27,7 @@ const BannerSection = () => {
               }}>
                 Explore
               </button>
-            <img src={arrow} alt="arrowIcon" />
+            <img className="arrow-icon" src={arrow} alt="arrowIcon" />
           </div>
         </div>
       </div>

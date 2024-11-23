@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import InfoBanner from './InfoBanner';
 import logo from '../assets/images/BlockWebLogo.png';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -16,6 +17,7 @@ const Navbar = () => {
 
     const handleClick = (section) => {
         setActive(section);
+        setIsMenuOpen(false);
     }
 
     // const handleHamburger
@@ -42,32 +44,46 @@ const Navbar = () => {
                     // Desktop navbar menu
                     <div className="nav-items font-semi-bold">
                         {navItems.map((item) => (
-                        <div
+                        <Link
                             key={item}
+                            to={item === 'Home' ? 'home' : item.toLowerCase()}  // Link target
+                            smooth={true} // Enable smooth scroll
+                            duration={500} // Duration for scroll in ms
+                            offset={-50}  // Offset to adjust scroll position (for fixed navbar)
                             className={`nav-item ${active === item ? 'active' : ''}`}
                             onClick={() => handleClick(item)}
                         >
                             {item}
-                        </div>
+                        </Link>
                         ))}
                     </div>
                  ): (
                     // Mobile navbar menu
                     <div className="hamburger-container">
-                        <button className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                        <button
+                          className="hamburger" 
+                          onClick={() => {
+                            setIsMenuOpen(!isMenuOpen)
+                            setActive('Home');
+                          }}
+                        >
                             {isMenuOpen ? '✖' : '☰'}
                         </button>
                         {/* Hamburger Menu */}
                         {isMenuOpen && (
                             <div className="hamburger-menu font-medium">
                                 {navItems.map((item) => (
-                                    <div
+                                    <Link
                                         key={item}
+                                        to={item === 'Home' ? 'home' : item.toLowerCase()}  // Link target
+                                        smooth={true} // Enable smooth scroll
+                                        duration={500} // Duration for scroll in ms
+                                        offset={-50}  // Offset to adjust scroll position (for fixed navbar)
                                         className={`hamburger-menu-item ${active === item ? 'active' : ''}`}
                                         onClick={() => handleClick(item)}
                                     >
                                         {item}
-                                    </div>
+                                    </Link>
                                 ))}
                             </div>
                         )}

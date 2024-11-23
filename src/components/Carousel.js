@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Robert from "../assets/images/Robert.png";
-import Michael from "../assets/images/Micheal.png";
-import Tom from "../assets/images/Tom.png";
+// import Robert from "../assets/images/Robert.png";
+// import Michael from "../assets/images/Micheal.png";
+// import Tom from "../assets/images/Tom.png";
 import "./carousel.css";
 import Person from "../assets/images/Person.png";
 

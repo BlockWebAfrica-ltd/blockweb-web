@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid2 } from '@mui/material';
 import '../assets/styles/components.css';
 import stockExchange from '../assets/images/Stock.png';
 import policy from '../assets/images/new_policy.png';
@@ -40,11 +39,11 @@ const Services = () => {
     ]
 
   return (
-    <div className="services-section">
+    <div className="services-section" id="services">
         {/* Title */}
         <div className='title-section'>
-            <h2 className="services-semi-title font-regular" style={{ marginTop: '10px', marginBottom: '0' }}>What we do</h2>
-            <h1 className='services-title font-bold' style={{ marginTop: '5px', marginBottom: '10px' }}>Our Services</h1>
+            <h2 className="services-semi-title font-regular" style={{ marginTop: '10px', marginBottom: '0', textAlign: 'center' }}>What we do</h2>
+            <h1 className='services-title font-bold' style={{ marginTop: '5px', marginBottom: '10px', textAlign: 'center' }}>Our Services</h1>
         </div>
 
         {/* Cards Section */}
@@ -53,8 +52,8 @@ const Services = () => {
                 <div className="grid-item" key={index}>
                     <img src={item.image} alt={item.title} className="item-image" />
                     <div className="item-info">
-                        <h2 className="item-title font-semi-bold">{item.title}</h2>
-                        <p className="item-description font-regular">{item.description}</p>
+                        <h2 className="item-title font-semi-bold services-card-title">{item.title}</h2>
+                        <p className="item-description font-regular services-card-description">{item.description}</p>
                     </div>
                 </div>
             ))}

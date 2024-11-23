@@ -239,4 +239,30 @@
   }
 }
 
+@media (max-width: 300px) {
+  .image-container {
+      width: 60vw;
+  }
+  .member {
+    margin: 0 20px;
+  }
+
+  .member p {
+    font-size: 6vw;
+  }
+
+  .middle-title {
+    font-size: 7vw;
+  }
+
+  .client-image-container {
+    width: 60vw;
+  }
+
+  .client-image-wrapper .client-image {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
 

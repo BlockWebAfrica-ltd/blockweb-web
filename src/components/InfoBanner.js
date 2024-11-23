@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Grid2, Paper, Box, Typography } from '@mui/material';
+import React from 'react';
+import { Grid2, Box, Typography } from '@mui/material';
 import phoneIcon from '../assets/images/phone-icon.svg';
 import mailIcon from '../assets/images/mail-icon.svg';
 import locationIcon from '../assets/images/location-icon.svg';
