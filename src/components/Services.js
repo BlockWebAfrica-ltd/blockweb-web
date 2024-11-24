@@ -43,7 +43,7 @@ const Services = () => {
     <>
     {/* SEO */}
     <Helmet>
-        <title>Our Services - Blockweb Africa</title>
+        {/* <title>Our Services - Blockweb Africa</title> */}
         <meta name="description" content="Explore the comprehensive services offered by Blockweb Africa, specializing in capital market regulations and blockchain technology solutions." />
         <meta property="og:title" content="Our Services - Blockweb Africa" />
         <meta property="og:description" content="Explore the comprehensive services offered by Blockweb Africa, specializing in capital market regulations and blockchain technology solutions." />

@@ -9,7 +9,7 @@ const Team = () => {
     <>
     {/* SEO */}
     <Helmet>
-      <title>Our Teams - Blockweb Africa</title>
+      {/* <title>Our Teams - Blockweb Africa</title> */}
       <meta name="description" content="Meet the talented and experienced team behind Blockweb Africa, driving innovation in capital market regulations and blockchain technology." />
       <meta property="og:title" content="Our Teams - Blockweb Africa" />
       <meta property="og:description" content="Meet the talented and experienced team behind Blockweb Africa, driving innovation in capital market regulations and blockchain technology." />
