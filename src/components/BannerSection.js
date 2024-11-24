@@ -2,6 +2,7 @@ import React from "react";
 import '../assets/styles/components.css';
 import Navbar from "./Navbar";
 import arrow from "../assets/images/arrow-long-right.svg";
+import { Link } from 'react-scroll';
 
 const BannerSection = () => {
   return (
@@ -17,16 +18,23 @@ const BannerSection = () => {
             investment banks, central banks, and ministries of finance.
           </p>
           <div className="explore-button">
-            <button
-              className="font-semi-bold explore-text"
-              style={{ 
-                borderStyle: 'none',
-                background: 'none',
-                fontSize: '16px',
-                color: 'white'
-              }}>
+            <Link
+              to="services"  
+              smooth={true}   
+              duration={500}  
+              offset={-50}    
+            >
+              <button
+                className="font-semi-bold explore-text"
+                style={{ 
+                  borderStyle: 'none',
+                  background: 'none',
+                  fontSize: '16px',
+                  color: 'white'
+                }}>
                 Explore
               </button>
+            </Link>
             <img className="arrow-icon" src={arrow} alt="arrowIcon" />
           </div>
         </div>

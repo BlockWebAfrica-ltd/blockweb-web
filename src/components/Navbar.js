@@ -18,6 +18,7 @@ const Navbar = () => {
     const handleClick = (section) => {
         setActive(section);
         setIsMenuOpen(false);
+        setActive('Home');
     }
 
     // const handleHamburger
