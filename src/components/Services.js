@@ -9,6 +9,7 @@ import uganda from '../assets/images/uganda.svg';
 import rwanda from '../assets/images/rwanda.svg';
 import burundi from '../assets/images/burundi.svg';
 import haiti from '../assets/images/haiti.svg';
+import { Helmet } from 'react-helmet';
 
 const Services = () => {
     const cardData = [
@@ -39,6 +40,18 @@ const Services = () => {
     ]
 
   return (
+    <>
+    {/* SEO */}
+    <Helmet>
+        <title>Our Services - Blockweb Africa</title>
+        <meta name="description" content="Explore the comprehensive services offered by Blockweb Africa, specializing in capital market regulations and blockchain technology solutions." />
+        <meta property="og:title" content="Our Services - Blockweb Africa" />
+        <meta property="og:description" content="Explore the comprehensive services offered by Blockweb Africa, specializing in capital market regulations and blockchain technology solutions." />
+        <meta name="twitter:title" content="Our Services - Blockweb Africa" />
+        <meta name="twitter:description" content="Explore the comprehensive services offered by Blockweb Africa, specializing in capital market regulations and blockchain technology solutions." />
+        <link rel="canonical" href="https://www.blockwebafrica.com/#services" />
+    </Helmet>
+
     <div className="services-section" id="services">
         {/* Title */}
         <div className='title-section'>
@@ -74,6 +87,7 @@ const Services = () => {
             </div>
         </div>
     </div>
+    </>
   );
 };
 

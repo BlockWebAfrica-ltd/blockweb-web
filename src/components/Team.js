@@ -2,10 +2,22 @@ import React from 'react';
 import '../assets/styles/components.css';
 import Carousel from './Carousel';
 import ClientCarousel from './ClientCarousel';
-
+import { Helmet } from 'react-helmet';
 
 const Team = () => {
   return (
+    <>
+    {/* SEO */}
+    <Helmet>
+      <title>Our Teams - Blockweb Africa</title>
+      <meta name="description" content="Meet the talented and experienced team behind Blockweb Africa, driving innovation in capital market regulations and blockchain technology." />
+      <meta property="og:title" content="Our Teams - Blockweb Africa" />
+      <meta property="og:description" content="Meet the talented and experienced team behind Blockweb Africa, driving innovation in capital market regulations and blockchain technology." />
+      <meta name="twitter:title" content="Our Teams - Blockweb Africa" />
+      <meta name="twitter:description" content="Meet the talented and experienced team behind Blockweb Africa, driving innovation in capital market regulations and blockchain technology." />
+      <link rel="canonical" href="https://www.blockwebafrica.com/#teams" />
+    </Helmet>
+    
     <div className="services-section">
         {/* Title */}
         <div className='title-section' id="team">
@@ -24,6 +36,7 @@ const Team = () => {
           <ClientCarousel />
         </div>
     </div>
+    </>
   );
 };
 
