@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/blockweb-web/static/css/main.079ba85e.css",
+    "main.js": "/blockweb-web/static/js/main.1289c495.js",
+    "static/js/453.c5585e17.chunk.js": "/blockweb-web/static/js/453.c5585e17.chunk.js",
+    "static/media/NairobiSkyLine.jpg": "/blockweb-web/static/media/NairobiSkyLine.5ec5547457803d913ca9.jpg",
+    "static/media/new_policy.png": "/blockweb-web/static/media/new_policy.7eef0b6ea4acc03e14a9.png",
+    "static/media/Stock.png": "/blockweb-web/static/media/Stock.f4280fa0b9aff72e955f.png",
+    "static/media/Market.png": "/blockweb-web/static/media/Market.277b41caa79ecea08d49.png",
+    "static/media/tanzania.svg": "/blockweb-web/static/media/tanzania.b7ead551a72280335cbf3701c3349174.svg",
+    "static/media/ministryOfFinanceRwanda.png": "/blockweb-web/static/media/ministryOfFinanceRwanda.786f83bda8799bb769f3.png",
+    "static/media/uganda.svg": "/blockweb-web/static/media/uganda.49c3d5964d8fe229a9ef5ecbbb8caf58.svg",
+    "static/media/BlockWebLogo.png": "/blockweb-web/static/media/BlockWebLogo.6975e9fb8939d02153eb.png",
+    "static/media/kenya.svg": "/blockweb-web/static/media/kenya.a1a3dc88695eb16d66170fecc4559f4d.svg",
+    "static/media/BankoftheRepublicofBurundi.png": "/blockweb-web/static/media/BankoftheRepublicofBurundi.745497479d2199336a2f.png",
+    "static/media/CapitalMarket.png": "/blockweb-web/static/media/CapitalMarket.52a1c6139849164dcbbb.png",
+    "static/media/haiti.svg": "/blockweb-web/static/media/haiti.80252fe00f9438a8ebc501e6291c49bd.svg",
+    "static/media/RSE.png": "/blockweb-web/static/media/RSE.08e8a201482ee3d4cc26.png",
+    "static/media/bancobu.jpg": "/blockweb-web/static/media/bancobu.541a75e6e96f5dff635e.jpg",
+    "static/media/DSE.png": "/blockweb-web/static/media/DSE.dd0f080cee4ed1ce6a41.png",
+    "static/media/burundi.svg": "/blockweb-web/static/media/burundi.995650ade178e25d627d2ce4b2fa869c.svg",
+    "static/media/rwanda.svg": "/blockweb-web/static/media/rwanda.fe5fda3022f6b26644a4358d3eb7dcf8.svg",
+    "static/media/Linkedin.svg": "/blockweb-web/static/media/Linkedin.f8f3cdb26e714a2357613af3761ba901.svg",
+    "static/media/location-icon.svg": "/blockweb-web/static/media/location-icon.494ac731909a241ef9ef61f6f22ba6d9.svg",
+    "static/media/Facebook.svg": "/blockweb-web/static/media/Facebook.a18fd811e73b81fc5dab2cf6d6f19006.svg",
+    "index.html": "/blockweb-web/index.html",
+    "static/media/phone-icon.svg": "/blockweb-web/static/media/phone-icon.b961d8de05ae158a232f2363787096a9.svg",
+    "static/media/arrow-long-right.svg": "/blockweb-web/static/media/arrow-long-right.d11b4e8eb987bf1d4c440e6917a9cff6.svg",
+    "static/media/mail-icon.svg": "/blockweb-web/static/media/mail-icon.c198cf5431c20f95db2d8cff42f57518.svg",
+    "static/media/Xicon.svg": "/blockweb-web/static/media/Xicon.fd14b6258fc955813e9be435ceee1540.svg",
+    "main.079ba85e.css.map": "/blockweb-web/static/css/main.079ba85e.css.map",
+    "main.1289c495.js.map": "/blockweb-web/static/js/main.1289c495.js.map",
+    "453.c5585e17.chunk.js.map": "/blockweb-web/static/js/453.c5585e17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079ba85e.css",
+    "static/js/main.1289c495.js"
+  ]
+}
