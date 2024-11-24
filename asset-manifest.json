@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blockweb-web/static/css/main.079ba85e.css",
-    "main.js": "/blockweb-web/static/js/main.531373bc.js",
+    "main.js": "/blockweb-web/static/js/main.24a9e292.js",
     "static/js/453.c5585e17.chunk.js": "/blockweb-web/static/js/453.c5585e17.chunk.js",
     "static/media/NairobiSkyLine.jpg": "/blockweb-web/static/media/NairobiSkyLine.5ec5547457803d913ca9.jpg",
     "static/media/new_policy.png": "/blockweb-web/static/media/new_policy.7eef0b6ea4acc03e14a9.png",
@@ -29,11 +29,11 @@
     "static/media/mail-icon.svg": "/blockweb-web/static/media/mail-icon.c198cf5431c20f95db2d8cff42f57518.svg",
     "static/media/Xicon.svg": "/blockweb-web/static/media/Xicon.fd14b6258fc955813e9be435ceee1540.svg",
     "main.079ba85e.css.map": "/blockweb-web/static/css/main.079ba85e.css.map",
-    "main.531373bc.js.map": "/blockweb-web/static/js/main.531373bc.js.map",
+    "main.24a9e292.js.map": "/blockweb-web/static/js/main.24a9e292.js.map",
     "453.c5585e17.chunk.js.map": "/blockweb-web/static/js/453.c5585e17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.079ba85e.css",
-    "static/js/main.531373bc.js"
+    "static/js/main.24a9e292.js"
   ]
 }
