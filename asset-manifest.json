@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/blockweb-web/static/css/main.079ba85e.css",
-    "main.js": "/blockweb-web/static/js/main.24a9e292.js",
+    "main.js": "/blockweb-web/static/js/main.75c45923.js",
     "static/js/453.c5585e17.chunk.js": "/blockweb-web/static/js/453.c5585e17.chunk.js",
     "static/media/NairobiSkyLine.jpg": "/blockweb-web/static/media/NairobiSkyLine.5ec5547457803d913ca9.jpg",
     "static/media/new_policy.png": "/blockweb-web/static/media/new_policy.7eef0b6ea4acc03e14a9.png",
     "static/media/Stock.png": "/blockweb-web/static/media/Stock.f4280fa0b9aff72e955f.png",
     "static/media/Market.png": "/blockweb-web/static/media/Market.277b41caa79ecea08d49.png",
+    "static/media/Tom.png": "/blockweb-web/static/media/Tom.310ad646d79fd84105e4.png",
     "static/media/tanzania.svg": "/blockweb-web/static/media/tanzania.b7ead551a72280335cbf3701c3349174.svg",
     "static/media/ministryOfFinanceRwanda.png": "/blockweb-web/static/media/ministryOfFinanceRwanda.786f83bda8799bb769f3.png",
+    "static/media/Robert.png": "/blockweb-web/static/media/Robert.c4be7bb4d76dbed31a64.png",
+    "static/media/Micheal.png": "/blockweb-web/static/media/Micheal.bade4ff7e2a89a2e69d4.png",
     "static/media/uganda.svg": "/blockweb-web/static/media/uganda.49c3d5964d8fe229a9ef5ecbbb8caf58.svg",
     "static/media/BlockWebLogo.png": "/blockweb-web/static/media/BlockWebLogo.6975e9fb8939d02153eb.png",
     "static/media/kenya.svg": "/blockweb-web/static/media/kenya.a1a3dc88695eb16d66170fecc4559f4d.svg",
@@ -29,11 +32,11 @@
     "static/media/mail-icon.svg": "/blockweb-web/static/media/mail-icon.c198cf5431c20f95db2d8cff42f57518.svg",
     "static/media/Xicon.svg": "/blockweb-web/static/media/Xicon.fd14b6258fc955813e9be435ceee1540.svg",
     "main.079ba85e.css.map": "/blockweb-web/static/css/main.079ba85e.css.map",
-    "main.24a9e292.js.map": "/blockweb-web/static/js/main.24a9e292.js.map",
+    "main.75c45923.js.map": "/blockweb-web/static/js/main.75c45923.js.map",
     "453.c5585e17.chunk.js.map": "/blockweb-web/static/js/453.c5585e17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.079ba85e.css",
-    "static/js/main.24a9e292.js"
+    "static/js/main.75c45923.js"
   ]
 }
