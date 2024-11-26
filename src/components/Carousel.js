@@ -1,77 +1,98 @@
 import React, { useEffect, useState } from "react";
-// import Robert from "../assets/images/Robert.png";
-// import Michael from "../assets/images/Micheal.png";
-// import Tom from "../assets/images/Tom.png";
+import Robert from "../assets/images/Robert.png";
+import Michael from "../assets/images/Micheal.png";
+import Tom from "../assets/images/Tom.png";
 import "./carousel.css";
-import Person from "../assets/images/Person.png";
+// import Person from "../assets/images/Person.png";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 
+// const teamMembers = [
+//   {
+//     id: 1,
+//     name: "Person 1",
+//     title: "Principle Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 2,
+//     name: "Person 2",
+//     title: "Technical Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 3,
+//     name: "Person 3",
+//     title: "Principle Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 4,
+//     name: "Person 4",
+//     title: "Technical Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 5,
+//     name: "Person 5",
+//     title: "Technical Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 6,
+//     name: "Person 6",
+//     title: "Technical Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 7,
+//     name: "Person 7",
+//     title: "Principle Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 8,
+//     name: "Person 8",
+//     title: "Technical Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 9,
+//     name: "Person 9",
+//     title: "Principle Consultant",
+//     image: Person,
+//   },
+//   {
+//     id: 10,
+//     name: "Person 10",
+//     title: "Principle Consultant",
+//     image: Person,
+//   },
+// ];
+
 const teamMembers = [
   {
     id: 1,
-    name: "Person 1",
-    title: "Principle Consultant",
-    image: Person,
+    name: "Micheal Nyamute",
+    title: "Technical Consultant",
+    image: Michael,
   },
   {
     id: 2,
-    name: "Person 2",
-    title: "Technical Consultant",
-    image: Person,
+    name: "Robert Mathu",
+    title: "Principle Consultant",
+    image: Robert,
   },
   {
     id: 3,
-    name: "Person 3",
-    title: "Principle Consultant",
-    image: Person,
-  },
-  {
-    id: 4,
-    name: "Person 4",
+    name: "Tom Waruinge",
     title: "Technical Consultant",
-    image: Person,
+    image: Tom,
   },
-  {
-    id: 5,
-    name: "Person 5",
-    title: "Technical Consultant",
-    image: Person,
-  },
-  {
-    id: 6,
-    name: "Person 6",
-    title: "Technical Consultant",
-    image: Person,
-  },
-  {
-    id: 7,
-    name: "Person 7",
-    title: "Principle Consultant",
-    image: Person,
-  },
-  {
-    id: 8,
-    name: "Person 8",
-    title: "Technical Consultant",
-    image: Person,
-  },
-  {
-    id: 9,
-    name: "Person 9",
-    title: "Principle Consultant",
-    image: Person,
-  },
-  {
-    id: 10,
-    name: "Person 10",
-    title: "Principle Consultant",
-    image: Person,
-  },
-];
+]
 
 const Carousel = () => {
   const membersArray = Object.values(teamMembers);
@@ -92,7 +113,8 @@ const Carousel = () => {
   }, []);
 
   // Determine how many images to show based on the screen size
-  const numberOfImagesToShow = isSmallScreen ? 3 : 5;
+  // const numberOfImagesToShow = isSmallScreen ? 3 : 5;
+  const numberOfImagesToShow = 3;
 
   // Get current visible images based on the current index and screen size
   const updateImages = () => {
