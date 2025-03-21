@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-content">
         <div className="copyright">
-          <p>Copyright © 2024 Blockweb Africa</p>
+          <p>Copyright © 2025 Blockweb Africa</p>
         </div>
         <div className="social-media">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
